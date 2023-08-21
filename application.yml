@@ -2,6 +2,7 @@
 eureka:
   instance:
     prefer-ip-address: true
+    ip-address: "${HOST}"
   client:
     fetch-registry: true
     registry-with-eureka: true
