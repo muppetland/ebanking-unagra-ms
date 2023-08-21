@@ -2,6 +2,8 @@
 eureka:
   instance:
     prefer-ip-address: true
+    ip-address: 172.18.0.2
+    non-secure-port: 8761    
   client:
     fetch-registry: true
     registry-with-eureka: true
