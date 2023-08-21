@@ -2,9 +2,8 @@
 eureka:
   instance:
     prefer-ip-address: true
-    ip-address: "${HOST}"
   client:
     fetch-registry: true
     registry-with-eureka: true
     service-url:
-      defaultZone: http://172.18.0.2:8761/eureka
+      defaultZone: http://b9a01e16ff67:8761/eureka
