@@ -6,4 +6,4 @@ eureka:
     fetch-registry: true
     registry-with-eureka: true
     service-url:
-      defaultZone: http://docker.unagra.com:8761/eureka
+      defaultZone: http://localhost:8761/eureka
