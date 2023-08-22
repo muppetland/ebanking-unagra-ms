@@ -6,4 +6,4 @@ eureka:
     fetch-registry: true
     registry-with-eureka: true
     service-url:
-      defaultZone: http://172.18.0.2:8761/eureka
+      defaultZone: http://294541b35303:8761/eureka
