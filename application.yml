@@ -24,4 +24,9 @@ springdoc:
   show-actuator: true
   model-and-view-allowed: true
   #for more information about springdoc we can referers at www.springdoc.org
-      
+
+  #Disable config server is issued when we don't neet to get this file from our "Config Server API"....
+  #cloud:
+    #config:
+      #import-check:
+        #enabled: false      
