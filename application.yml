@@ -6,7 +6,7 @@ eureka:
     fetch-registry: true
     registry-with-eureka: true
     service-url:
-      defaultZone: http://172.18.0.2:8761/eureka
+      defaultZone: http://f9dc66e6f326:8761/eureka
 
 
 #enable/disable api doc / swagger-ui
