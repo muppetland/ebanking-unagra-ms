@@ -1,13 +1,12 @@
 #setup eureka client
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    fetch-registry: true
-    registry-with-eureka: true
-    service-url:
-      defaultZone: http://f9dc66e6f326:8761/eureka
-
+#eureka:
+  #instance:
+    #prefer-ip-address: true
+  #client:
+    #fetch-registry: true
+    #registry-with-eureka: true
+    #service-url:
+      #defaultZone: http://f9dc66e6f326:8761/eureka
 
 #enable/disable api doc / swagger-ui
 springdoc:
