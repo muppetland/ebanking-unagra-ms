@@ -6,7 +6,7 @@ eureka:
     fetch-registry: true
     registry-with-eureka: true
     service-url:
-      defaultZone: http://f9dc66e6f326:8761/eureka
+      defaultZone: http://172.18.0.2:8761/eureka
 
 
 #enable/disable api doc / swagger-ui
@@ -18,8 +18,8 @@ springdoc:
     #set the path to access to documentation...
     path: /doc/swagger-ui.html
   #wich controllers or package we're gonna show to documentation?
-  #packagesToScan: com.unagra
-  packagesToMatch: /auth/**
+  packagesToScan: com.unagra
+  #packagesToMatch: /auth/**
   show-actuator: true
   model-and-view-allowed: true
   #for more information about springdoc we can referers at www.springdoc.org
